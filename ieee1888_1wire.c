@@ -136,6 +136,7 @@ int init(){
 							strncpy(tmpData,strstr(buf,"t=")+2,5);
 							tempC=strtof(tmpData,NULL);
 							tempC=tempC/1000;
+							
 						}
 						close(fd);
 						//IEEE1888S DATA
